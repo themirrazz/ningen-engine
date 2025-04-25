@@ -1,1 +1,3 @@
-e
+# How I "run" websites on my brain
+## Introduction
+I started learning the basics of JavaScript and HTML when I was in elementary school (around when I was 7). 10 years later, I've written modern websites that run in Internet Explorer, created an antivirus entirely in JavaScript, and made not only a StudentVUE but also a *Parent*VUE client for Windows 96 (a website that simulates a 9X OS, to the point where it has it's own JavaScript API for writing apps and everything - I recommend trying it out). While the StudentVUE and ParentVUE client didn't last that long (thanks Replit), what did is my knowledge. I've gotten so accustomed 
