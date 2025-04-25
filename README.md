@@ -28,4 +28,17 @@ I can use most ES2020 syntax, and I can do both client-side (browser) and server
 
 For server-side, I only really support the packages `fs`, `fs.promises`, and `http` (mostly because those are my most used packages).
 
-For client-side, I support the following properties of the `navigator` object: `navigator.userAgent`, `navigator.mediaDevices`, `navigator.mediaSession`, `navigator.platform`, `navigator.vendor`, `navigator.appName`, `navigator.appCodeName`, `navigator.doNotTrack`, `navigator.globalPrivacyControl`, `navigator.getBattery()`, `navigator.geolocation`, `navigator.share()`, `navigator.canShare()`, `navigator.permissions`, `navigator.honorifics`, `navigator.requestMIDIAccess()`\*, `navigator.clipboard`, `navigator.onLine`, `navigator.connection`, `navigator.deviceMemory`, `navigator.contacts`, `navigator.cookieEnabled`, `navigator.javaEnabled()`, `navigator.language`, `navigator.languages`, `navigator.pdfViewerEnabled`, `navigator.serviceWorker`, `navigator.webdriver`, `navigator.virtualKeyboard`, `navigator.xr`, `navigator.standalone`, `navigator.mimeTypes`, `navigator.plugins`, `navigator.product`, `navigator.setAppBadge()`*, `navigator.clearAppBadge()`\*, `navigator.getAutoplayPolicy()`\*, `navigator.vibrate()`
+For client-side, I support the following properties of the `navigator` object: `navigator.userAgent`, `navigator.mediaDevices`, `navigator.mediaSession`, `navigator.platform`, `navigator.vendor`, `navigator.appName`, `navigator.appCodeName`, `navigator.doNotTrack`, `navigator.globalPrivacyControl`, `navigator.getBattery()`, `navigator.geolocation`, `navigator.share()`, `navigator.canShare()`, `navigator.permissions`, `navigator.honorifics`, `navigator.requestMIDIAccess()`\*, `navigator.clipboard`, `navigator.onLine`, `navigator.connection`, `navigator.deviceMemory`, `navigator.contacts`, `navigator.cookieEnabled`, `navigator.javaEnabled()`, `navigator.language`, `navigator.languages`, `navigator.pdfViewerEnabled`, `navigator.serviceWorker`, `navigator.webdriver`, `navigator.virtualKeyboard`, `navigator.xr`\*, `navigator.standalone`, `navigator.mimeTypes`, `navigator.plugins`, `navigator.product`, `navigator.setAppBadge()`*, `navigator.clearAppBadge()`\*, `navigator.getAutoplayPolicy()`\*, `navigator.vibrate()`
+
+I officially support the Battery Status API, Web MIDI API, Web Share API, Web Vibrations API, Geolocation API, Autoplay Policy API, Web Contacts API, Media Devices API, Media Session API, Clipboard API, WebXR API*, and Connection Status API. I also support Web Workers (including Service Workers).
+
+I also support WebExtensions (`.ngx` for **N**in**G**en e**X**tension) for specific popular APIs (`tabs`, `history`, `bookmarks`, etc.)
+
+### Python
+I can do basic Python syntax.
+
+### Ignore Errors
+I can run JavaScript even after critical errors - including syntax errors.
+
+### Mixed Scripts
+Using a **N**in**G**en **M**ixed script (.ngm), you can combine client-side code, WebExtensions, Node.JS, HTML, and Python in one giant file. What is the purpose? I don't know. PHP can be inserted in `.ngm` files, but it'll be ignored.
